@@ -1,0 +1,112 @@
+/* This is a free font from http://google.com/fonts
+ You can find lots of others and they are all free to use and provide simple instructions to add them to your site  */
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+body {
+	background-image: url(../images/marble.png);
+height: 100vh;
+}
+
+body {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	background-color: #E2F5F7;
+	color: #404E5B;
+	/*To set images at 100% height of the browser window, add in height: 100vh to the
+	body. VH stands for viewport height and you can also have vw - viewport width*/
+	height: 100vh;
+}
+
+header { 
+	text-align: center;
+	padding: 0px 0px 0px 0;
+
+}
+
+nav {
+	text-align: center;
+	background-color: #FFFFFF;
+	background: #CCC;
+	opacity: 0.8;
+	padding: 20px 0 20px 0;
+}
+
+
+a { 
+	color: #074062;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+}
+
+a:link {color: #404E5B;
+ }
+
+section {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	background-color: #ffffff;
+	padding: 40px 40px 40px 40px;
+
+}
+
+p {
+font-family: 'Alegreya Sans SC', sans-serif;
+text-align: center;
+margin: 40px auto 40px auto;
+}
+
+
+img {
+
+max-width: 1000px;
+
+}
+
+.container1 {
+
+}
+.container {
+	width: 960px;
+	margin: 40px auto 40px auto;
+}
+
+.map { 
+
+text-align: center;
+	padding: 0px 0px 0px 0;
+
+}
+
+.form {
+
+	text-align: center;
+	padding: 0px 0px 0px 0;
+
+}
+
+div.full-background {
+	background-image: url(../images/polaroid.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 40%;
+	/*This fixes the background to your browser window allowing content to look 
+	like it flows over the top.*/
+	background-attachment: fixed;
+	/*On anything you want to be as tall as the browser window, set 100% height*/
+	height: 100%;
+}
+
+div.full-background-2 {
+	background-image: url(../images/ballet.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 40%;
+	background-attachment: fixed;
+	/*On anything you want to be as tall as the browser window, set 100% height*/
+	height: 100%;
+}
+
+
+
+
+
+
